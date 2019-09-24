@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="http4s-todo_9432" />
+    <profile name="sbt 2" modules="http4s-todo">
+      <option name="postfixOps" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.typelevel/kind-projector_2.13/jars/kind-projector_2.13-0.10.3.jar" />
+        <plugin path="$USER_HOME$/.ivy2/cache/com.olegpy/better-monadic-for_2.13/jars/better-monadic-for_2.13-0.3.0.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
